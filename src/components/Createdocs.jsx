@@ -66,8 +66,8 @@ function Createdocs() {
     return (
         <>
 
-            <div>
-                <button className='btn btn-primary' style={{ marginLeft: '10px',marginLeft:'700px'}} onClick={handleShow}>+ Add Documents</button>
+            <div className=''>
+                <button className='btn btn-primary text-center' style={{ marginLeft: '10px',marginLeft:'700px'}} onClick={handleShow}>+ Add Documents</button>
             </div>
             <Modal size='lg'centered show={show} onHide={handleClose}>
         <Modal.Header closeButton>
